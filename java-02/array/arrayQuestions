@@ -1,0 +1,54 @@
+find max of min of all windows of size n.
+
+Given an array arr[] of n integers, construct a Product Array prod[] (of same size) such that prod[i] is equal to the product of all the elements of arr[] except arr[i].
+	arr[] = {10, 3, 5, 6, 2}
+	prod[] = {180, 600, 360, 300, 900}
+
+Convert array into Zig-Zag fashion.  The converted array should be in form a < b > c < d > e < f
+	Example: 
+	Input:  arr[] = {4, 3, 7, 8, 6, 2, 1}
+	Output: arr[] = {3, 7, 4, 8, 2, 6, 1}
+
+Move all zeroes to end of array
+	{1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0}, it should be changed to {1, 9, 8, 4, 2, 7, 6, 0, 0, 0, 0}.
+
+
+Given an array, print the Next Greater Element (NGE) for every element. The Next greater Element for an element x is the first greater element on the right side of x in array
+	{4, 5, 2, 25} -> 
+	Element       NGE
+	   4      -->   5
+	   5      -->   25
+	   2      -->   25
+	   25     -->   -1
+
+Equilibrium index of an array
+		Input : A[] = {-7, 1, 5, 2, -4, 3, 0}
+		Output : 3
+		3 is an equilibrium index, because:
+		A[0] + A[1] + A[2]  =  A[4] + A[5] + A[6]
+
+Majority Element - more than n/2
+
+Find Second largest element in an array
+
+Leaders in an array
+	{16, 17, 4, 3, 5, 2}, leaders are 17, 5 and 2 . An element is leader if it is greater than all the elements to its right side
+
+Find duplicates in an Array of integers
+
+
+Print a given matrix in spiral form
+
+	Input:
+        1    2   3   4
+        5    6   7   8
+        9   10  11  12
+        13  14  15  16
+
+	Output: 
+	1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10 
+
+Implement a stack using arrays
+
+Create an array of Pizzas(Pizza should be a class with name, price and topping) and then take input from user to find if a pizza with that name and topping exists in the array. 
+
