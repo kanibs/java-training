@@ -1,3 +1,10 @@
 class NegativeAgeException extends Exception {
-NegativeAgeException(String str) { super(str); }
+	NegativeAgeException(String str) { 
+		super(str); 
+	}
+
+
+	NegativeAgeException() { 
+		super(); 
+	}
 }

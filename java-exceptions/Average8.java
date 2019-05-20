@@ -1,14 +1,14 @@
 public class Average8 {
 public static void main(String[] args) {
 try {
-printAverage(100, 0);
+	printAverage(100, 0);
 } catch (IntegerDivisionByZero idbze) {
-idbze.printStackTrace();
-System.out.println("Exception handled in " +
-"main().");
+	idbze.printStackTrace();
+	System.out.println("Exception handled in main().");
 } finally {
-System.out.println("Finally done in main().");
+	System.out.println("Finally done in main().");
 }
+
 System.out.println("Exit main().");
 
 }

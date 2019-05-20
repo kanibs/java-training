@@ -13,15 +13,12 @@ public static void printAverage(int totalSum, int totalNumber) {
 	try {
 
 		int average = computeAverage(totalSum, totalNumber);// (8)
-		System.out.println("Average = " +
-
-		totalSum + " / " + totalNumber + " = " + average);
+		System.out.println("Average = " +totalSum + " / " + totalNumber + " = " + average);
 	} catch (IllegalArgumentException iae) {
 
 		iae.printStackTrace();
 
-		System.out.println("Exception handled in " +
-		"printAverage().");
+		System.out.println("Exception handled in printAverage().");
 
 	}
 	System.out.println("Exit printAverage().");
