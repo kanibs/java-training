@@ -1,3 +1,4 @@
+//Any pending execptions are propagated
 public class Average5 {
 
 public static void main(String[] args) {

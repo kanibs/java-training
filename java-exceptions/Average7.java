@@ -1,3 +1,4 @@
+//Demostrate throw.
 public class Average7 {
 public static void main(String[] args) {
 try {
@@ -30,6 +31,9 @@ System.out.println("Finally in printAverage().");
 
 public static int computeAverage(int sum, int number) {
 	System.out.println("Computing average.");
+	if(number == 0){
+		throw new ArithmeticException("Integer Division by 0");
+	}
 	return sum/number;
 }
 }

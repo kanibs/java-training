@@ -1,6 +1,7 @@
+//If there is a return statement then the exceptions are nullified and the return value is propagated
 public class Average6 {
 public static void main(String[] args) {
-	System.out.println("Average: " + printAverage(100, 20));
+	System.out.println("Average: " + printAverage(100, 0));
 	System.out.println("Exit main().");
 }
 public static int printAverage(int totalSum, int totalNumber) {
