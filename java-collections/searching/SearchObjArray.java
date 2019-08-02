@@ -7,7 +7,7 @@ class SearchObjArray {
     Arrays.sort(sa);
     for (String s : sa)
       System.out.print(s + " ");
-    System.out.println("\none = " + Arrays.binarySearch(sa, "ten"));
+    System.out.println("\none = " + Arrays.binarySearch(sa, "one"));
     System.out.println("now reverse sort");
     ReSortComparator rs = new ReSortComparator();
     Arrays.sort(sa, rs);

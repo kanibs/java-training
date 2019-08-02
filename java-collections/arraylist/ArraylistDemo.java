@@ -15,5 +15,6 @@ class ArraylistDemo {
     System.out.println(test.contains("hihi"));
     test.remove("hi");
     System.out.println(test.size());
+    System.out.println(test);
   }
 }

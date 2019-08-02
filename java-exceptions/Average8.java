@@ -3,10 +3,12 @@ public class Average8 {
   public static void main(String[] args) {
     try {
       printAverage(100, 0);
-    } catch (IntegerDivisionByZero idbze) {
+    }
+     catch (IntegerDivisionByZero idbze) {
       idbze.printStackTrace();
       System.out.println("Exception handled in main().");
-    } finally {
+    }
+    finally {
       System.out.println("Finally done in main().");
     }
 
@@ -23,7 +25,7 @@ public class Average8 {
   public static int computeAverage(int sum, int number) throws IntegerDivisionByZero {
     System.out.println("Computing average.");
     if (number == 0)
-      throw new IntegerDivisionByZero("Integer Division By Zero");
+      throw new IntegerDivisionByZero("Cannot divide by zero");
     return sum / number;
   }
 }

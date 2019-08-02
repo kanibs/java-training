@@ -20,6 +20,7 @@ class Car {
     Car anotherRedAudiA6 = new Car("au01", "Red", "Audi", "A6");
 
     System.out.println("redAudi.equals(anotherRedAudiA6)=" + redAudiA6.equals(anotherRedAudiA6));
+    System.out.println("redAudi == anotherRedAudiA6 :" + (redAudiA6==anotherRedAudiA6));
   }
 
   @Override

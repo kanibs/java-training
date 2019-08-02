@@ -11,7 +11,6 @@ class TestSort1 {
     stuff.add("Telluride");
     System.out.println("unsorted " + stuff);
     Collections.sort(stuff);
-    // #2
     System.out.println("sorted" + stuff);
   }
 }

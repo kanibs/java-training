@@ -10,6 +10,7 @@ class Car {
     this.brand = brand;
   }
 
+
   @Override
   public boolean equals(Object obj) {
     if (obj instanceof Car) {
